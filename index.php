@@ -4,11 +4,12 @@
 <html lang="en">
     <head>
         <title>Home - WGC Canteen</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css?v=<?php echo time(); ?>">
         <link rel="icon" href="https://wgc.school.nz/wp-content/uploads/2018/09/WGC_Logo_Transparent_RGB.png" type="image/gif">
     </head>
     <body>
         <?php include 'header.php';?>
+        <h1>WGC Canteen</h1>
         <h2>Login</h2>
         <!--Login form-->
         <form name="login_form" id="login_form" method="post" action="process_login.php">
