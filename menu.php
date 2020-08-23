@@ -8,15 +8,7 @@
         <link rel="icon" href="https://wgc.school.nz/wp-content/uploads/2018/09/WGC_Logo_Transparent_RGB.png" type="image/gif">
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="index.php"><img src="https://wgc.school.nz/wp-content/uploads/2018/09/WGC_Logo_Transparent_RGB.png" alt="WGC Logo"></a>
-                <a href="index.php">Home</a>
-                <a href="menu.php" id="active">Menu</a>
-                <a href="order.php">Order</a>
-                <a href="admin.php">Admin</a>
-            </nav>
-        </header>
+        <?php include 'header.php';?>
         <h1>Canteen Kai</h1>
         <form>
             <select name="category" onchange="this.form.submit()">
