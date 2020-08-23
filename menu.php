@@ -95,7 +95,7 @@
                 echo "<tr><td>".$row['Product']."</td>";
                 echo "<td>".$row['Type']."</td>";
                 echo "<td>".$row['Availability']."</td>";
-                echo "<td>".$row['Cost']."</td></tr>";
+                echo "<td>$".$row['Cost']."</td></tr>";
             }
             ?>
         </table>

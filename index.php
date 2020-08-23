@@ -12,26 +12,16 @@
         <h2>Login</h2>
         <!--Login form-->
         <form name="login_form" id="login_form" method="post" action="process_login.php">
-            <label for="username">Username:</label>
-            <input type="text" name="username"><br>
-
-            <label for="password">Password:</label>
-            <input type="password" name="password"><br>
-
+            Username: <input type="text" name="username" maxlength="20"><br>
+            Password: <input type="password" name="password" maxlength="256"><br>
             <input type="submit" name="submit" value="Login">
         </form>
         <h2>Sign Up</h2>
         <!--Sign Up form-->
         <form name="signup_form" id="signup_form" method="post" action="process_signup.php">
-            <label for="username">Username:</label>
-            <input type="text" name="username"><br>
-
-            <label for="password">Password:</label>
-            <input type="password" name="password"><br>
-
-            <label for="confirm">Confirm password:</label>
-            <input type="password" name="confirm"><br>
-
+            Username: <input type="text" name="username" maxlength="20"><br>
+            Password: <input type="password" name="password" maxlength="256"><br>
+            Confirm password: <input type="password" name="confirm" maxlength="256"><br>
             <input type="submit" name="submit" value="Sign Up">
         </form>
     </body>
